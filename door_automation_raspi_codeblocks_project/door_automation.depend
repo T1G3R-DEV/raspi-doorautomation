@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1639470173 source:/home/pi/door_automation/src/HCSR04.cpp
+	"HCSR04.h"
+	<iostream>
+	<chrono>
+	<iostream>
+	<sys/time.h>
+	<ctime>
+
+1634626044 /home/pi/door_automation/include/HCSR04.h
+	<wiringPi.h>
+	<ctime>
+
+1634624692 source:/home/pi/door_automation/src/INA219.cpp
+	"INA219.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/i2c-dev.h>
+	<bitset>
+	<math.h>
+
+1634624692 /home/pi/door_automation/include/INA219.h
+	<stdint.h>
+
+1639469360 source:/home/pi/door_automation/main.cpp
+	<iostream>
+	<ctime>
+	<wiringPi.h>
+	"HCSR04.h"
+	"INA219.h"
+	"ServoPWM.h"
+
+1639469274 source:/home/pi/door_automation/src/ServoPWM.cpp
+	"ServoPWM.h"
+	"wiringPi.h"
+	<iostream>
+
+1638261489 /home/pi/door_automation/include/ServoPWM.h
+
